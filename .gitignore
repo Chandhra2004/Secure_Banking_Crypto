@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Secrets / keys
+keys/*.pem
+keys/*.key
+
+# Message store (runtime artifacts)
+messages/*.json
+
+# Python test / coverage
+.pytest_cache/
+coverage.xml
+htmlcov/
